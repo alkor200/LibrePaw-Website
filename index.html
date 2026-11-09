@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LibrePaw: a real iOS app for Traccar pet tracking</title>
+<meta name="description" content="LibrePaw is a free, open source iOS app built specifically for tracking pets on your own Traccar server, excursions, a live trail, Find Pet, and more, none of which Traccar's own UI gives you.">
+<link rel="icon" href="assets/app-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/app-icon.png" alt="" class="brand-mark">
+      <span>LibrePaw</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#features">Features</a>
+      <a href="#hardware">Hardware</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/alkor200/LibrePaw" class="nav-github">
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        GitHub
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">A Traccar client, built for pets</p>
+        <h1>You already run Traccar. It just never had a good app for your pets.</h1>
+        <p class="hero-lede">
+          <a href="https://www.traccar.org/">Traccar</a> is a great
+          self-hosted tracking platform, but its own web UI and generic
+          client apps are built for fleets, not for a dog that jumps the
+          fence or a cat that slips out the door. LibrePaw is a free,
+          native iOS app built specifically for pets, on top of the
+          Traccar server you already have.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/alkor200/LibrePaw">View on GitHub</a>
+          <a class="btn btn-coffee" href="https://buymeacoffee.com/librepaw" aria-label="Buy me a coffee">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M3 9h15a3 3 0 0 1 0 6h-1.17A6 6 0 0 1 11 19H8a6 6 0 0 1-6-6V9Zm2 2v2a4 4 0 0 0 4 4h3a4 4 0 0 0 4-4v-2H5Zm13 1v2a5 5 0 0 1-2.78 4.47A3 3 0 0 0 19 15.5V11h-1ZM7 3c0 1-1 1.2-1 2.3S7 6.6 7 7.6m4-4.6c0 1-1 1.2-1 2.3S11 6.6 11 7.6"/></svg>
+            Buy me a coffee
+          </a>
+        </div>
+        <p class="hero-footnote">Point it at your own Traccar server and sign in. No account with us, because there is no "us" to have one with.</p>
+      </div>
+
+      <div class="hero-shots">
+        <img class="hero-shot" src="assets/screenshots/trail.jpg" alt="LibrePaw's excursion detail screen, showing a pet's walking route across a Berlin park along with its distance, duration, and average speed">
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="wrap">
+      <h2>Everything Traccar's own UI leaves out for pets</h2>
+
+      <div class="feature-row">
+        <img class="feature-shot" src="assets/screenshots/map.jpg" alt="LibrePaw's live map, showing a pet's position in a Berlin park">
+        <div class="feature-copy">
+          <svg class="feature-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <h3>Live map</h3>
+          <p>Every pet's last known position at a glance, their own photo right on the pin, plus your own location for scale, no fleet-management clutter.</p>
+        </div>
+      </div>
+
+      <div class="feature-row feature-row-reverse">
+        <img class="feature-shot" src="assets/screenshots/excursions.jpg" alt="LibrePaw's excursions list, showing trips with duration and distance">
+        <div class="feature-copy">
+          <svg class="feature-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 19c3-6 2-9 5-9s1 5 4 5 2-6 5-6"/></svg>
+          <h3>Excursions &amp; Trail</h3>
+          <p>Set a home location and LibrePaw quietly logs every trip away and back, distance, duration, and the exact route, drawn right on the map, so you can finally see where an outdoor cat actually goes on their rounds, not just that they made it home.</p>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <img class="feature-shot" src="assets/screenshots/find.jpg" alt="LibrePaw's Find Pet screen, with a compass arrow pointing toward a pet">
+        <div class="feature-copy">
+          <svg class="feature-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3v3m0 12v3M3 12h3m12 0h3M7 7l-2-2m14 2 2-2M7 17l-2 2m14-2 2 2"/><circle cx="12" cy="12" r="3.4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <h3>Find Pet</h3>
+          <p>An AirTag-style compass arrow and live distance reading, no extra hardware, no separate app, just point your phone and walk.</p>
+        </div>
+      </div>
+
+      <div class="feature-row feature-row-reverse">
+        <img class="feature-shot" src="assets/screenshots/pet-detail.jpg" alt="LibrePaw's pet detail screen, with a Share Buddy action">
+        <div class="feature-copy">
+          <svg class="feature-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 3 4 7v5c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V7l-8-4Z"/></svg>
+          <h3>Household sharing</h3>
+          <p>An admin account can share a pet with the rest of the household by email, right from the app, everyone sees the same live position and history.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="hardware" class="hardware">
+    <div class="wrap hardware-inner">
+      <div class="hardware-card">
+        <h3>Which tracker to buy</h3>
+        <p>LibrePaw works with any Traccar-supported GPS tracker, but the <strong>Mictrack MT710</strong> is what this project is built and tested against: small enough for a collar, a battery that actually lasts, and a reporting interval that works well with the excursion and trail logging above.</p>
+        <p>Want a lower profile on the collar? A more compact replacement mount for the MT710, printable in flexible TPU, is up for download on <a href="https://www.printables.com/model/1907699-mictrack-mt710-collar-case">Printables</a>.</p>
+      </div>
+      <div class="hardware-card">
+        <h3>What's next</h3>
+        <p>An Android app is in planning. If LibrePaw would be useful to you there too, that's good signal, say so on <a href="https://github.com/alkor200/LibrePaw/issues">GitHub</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap about-inner">
+      <div class="about-copy">
+        <h2>Still just Traccar underneath</h2>
+        <p>
+          LibrePaw doesn't run a backend, store your pets' positions, or ask
+          you to sign up for anything. It's a native SwiftUI client for
+          <a href="https://www.traccar.org/">Traccar</a>, the open source,
+          self-hostable GPS platform that already supports hundreds of
+          cheap GPS trackers. Point LibrePaw at your own Traccar server
+          and every home, excursion, and photo it shows you is a plain
+          Traccar geofence or device attribute, visible in Traccar's own
+          web UI too if you ever want to check.
+        </p>
+        <p>
+          No subscription. No app-maker sitting between you and your pet's
+          location. If you ever want to leave, your data was never
+          anywhere but your own server to begin with.
+        </p>
+        <p class="about-license">
+          Found a bug, or have a feature you'd like to see? Open an issue
+          on <a href="https://github.com/alkor200/LibrePaw/issues">GitHub</a>,
+          pull requests are welcome too. Source available under the MIT
+          License.
+        </p>
+      </div>
+      <img class="about-shot" src="assets/screenshots/login.jpg" alt="LibrePaw's login screen, signing in with a Traccar account">
+    </div>
+  </section>
+
+  <section class="support">
+    <div class="wrap support-inner">
+      <h2>Free, and will stay that way</h2>
+      <p>
+        LibrePaw costs nothing and always will. If it's useful to you and
+        you'd like to say thanks, a coffee is always appreciated, but
+        never expected.
+      </p>
+      <a class="btn btn-coffee btn-large" href="https://buymeacoffee.com/librepaw" aria-label="Buy me a coffee">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 9h15a3 3 0 0 1 0 6h-1.17A6 6 0 0 1 11 19H8a6 6 0 0 1-6-6V9Zm2 2v2a4 4 0 0 0 4 4h3a4 4 0 0 0 4-4v-2H5Zm13 1v2a5 5 0 0 1-2.78 4.47A3 3 0 0 0 19 15.5V11h-1ZM7 3c0 1-1 1.2-1 2.3S7 6.6 7 7.6m4-4.6c0 1-1 1.2-1 2.3S11 6.6 11 7.6"/></svg>
+        Buy me a coffee
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>LibrePaw is open source software and is not affiliated with Traccar.</p>
+    <p class="footer-links">
+      <a href="https://github.com/alkor200/LibrePaw">GitHub</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="https://github.com/alkor200/LibrePaw/blob/main/LICENSE">MIT License</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="https://www.traccar.org/">Traccar</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="impressum.html">Impressum</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="datenschutz.html">Datenschutz</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
