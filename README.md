@@ -1,8 +1,9 @@
 # LibrePaw website
 
-One-page marketing site for [LibrePaw](https://github.com/alkor200/LibrePaw), an open source iOS app for pet GPS tracking.
+One-page marketing site for [LibrePaw](https://github.com/alkor200/LibrePaw) (iOS) and
+[LibrePaw-Android](https://github.com/alkor200/LibrePaw-Android), an open source app for pet GPS tracking.
 
-Static HTML/CSS, no build step. Screenshots in `assets/screenshots/` come straight from the app's own simulator, colors in `styles.css` match the app's own palette (`Color+Theme.swift`).
+Static HTML/CSS, no build step. Screenshots in `assets/screenshots/` come straight from the iOS app's own simulator (no separate Android screenshots, the UI is close enough that the iOS ones stand in for both), colors in `styles.css` match the app's own palette (`Color+Theme.swift`).
 
 ## Before publishing
 
